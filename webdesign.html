@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebDesign Portfolio</title>
+    <!-- <link rel="stylesheet" href="css/style.css" https://necolas.github.io/normalize.css/8.0.1/normalize.css> -->
+    <!-- <link rel="stylesheet" href="https://normalize.css/8.0.1/normalize.css"> -->
+    <link rel="stylesheet" href="./css/others.css">
+    <style>
+        body {
+            background: beige;
+        }
+
+        .container {
+            width: 100vw;
+            position: absolute;
+            overflow: hidden;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            z-index: -1;
+        }
+
+        .container img {
+            margin: 2rem;
+            width: 65vw;
+            margin-bottom: 0.2rem;
+        }
+
+        h1 {
+            margin-top: 5rem;
+            font-size: 3.5rem;
+            color: rgb(191, 3, 53);
+            text-shadow: 0.1rem 0.1rem rgb(30, 67, 112);
+            text-align: center;
+            padding: 1.5rem;
+            z-index: 2;
+        }
+
+
+        P {
+            font-size: 1rem;
+        }
+
+        @media screen and(max-width: 800px) {
+            .wrap img {
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <div class="start">
+                <a href="index.html"><img src="images/RainbowTree_light.png" class="logo" alt="rainbow tree logo"></a>
+                <div class="eg_name">RainbowTree<br>Studio<br>彩 虹 樹 作 品</div><!-- <div class="intro">彩 虹 樹</div> -->
+                <div class="slogan">常引彩虹灌溉·期以燦爛繽紛</div>
+                <nav>
+                    <label for="switch"><img src="images/menu_icon.png" width="40px"></label>
+                    <!-- 漢堡按鈕圖示 -->
+                    <input type="checkbox" id="switch"><!-- 選單開關 -->
+                    <ul class="menu"><!--選單內容-->
+                        <li><a href="paintings.html">|◆繪畫<small>Paintings</small>◆|</a> </li>
+                        <li><a href="graphicdesign.html">|◆平面設計<small>Graphic Design</small>◆|</a></li>
+                        <li><a href="photograph.html">|◆攝影<small>photograph</small>◆|</a> </li>
+                        <li><a href="webdesign.html">|◆網頁設計<small>Web Design</small>◆|</a></li>
+                        <li><a href="aboutme.html">|◆關於彩虹樹<small>About RainbowTree</small>◆|</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- <div class="icon" id="navbar_icon"><img src="./images/menu_icon.png" width="2.5rem" alt="navbar_icon"> </div> -->
+        </div>
+
+        </div>
+    </header>
+    <br>
+    <h1>★ 網頁設計作品 ★</h1>
+    <div class="all">
+        <div class="container">
+            <div class="wrap">
+                <div><img src="./images/webdesign/01.png">
+                    <p>妖精多肉植物工作室．攝影/繪圖/網站設計．製作</p>
+                </div>
+                <div><img src="./images/webdesign/02.png">
+                    <p>妖精多肉植物工作室．攝影/繪圖/網站設計．製作</p>
+                </div>
+                <div><img src="./images/webdesign/artist_index.png">
+                    <p>世界知名藝術家．版型網頁規畫製作</p>
+                </div>
+                <div><img src="./images/webdesign/artist02.png">
+                    <p>世界知名藝術家．版型網頁規畫製作</p>
+                </div>
+                <div><img src="./images/webdesign/artist03.png">
+                    <p>世界知名藝術家．版型網頁規畫製作</p>
+                </div>
+            </div>
+    </div>
+</body>
+
+</html>

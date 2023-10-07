@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paintings Portfolio</title>
+    <!-- <link rel="stylesheet" href="css/style.css" https://necolas.github.io/normalize.css/8.0.1/normalize.css> -->
+    <!-- <link rel="stylesheet" href="https://normalize.css/8.0.1/normalize.css"> -->
+    <link rel="stylesheet" href="./css/others.css">
+    <style>
+        body {
+            background: linear-gradient(to bottom, royalblue, lavender 10%, seashell 50%, royalblue);
+        }
+
+        .all {
+            display: flex;
+            margin: 0 auto;
+            width: 95vw;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        /* .waterfall {
+            width: 95%;
+            margin: 0px auto;
+            column-count: 3;
+            column-gap: 15px;
+        } */
+
+        .item {
+            width: 380px;
+            text-align: center;
+            padding: 5px;
+            box-sizing: border-box;
+            margin: 0 auto;
+            break-inside: avoid;
+        }
+
+        .item img {
+            width: 100%;
+           object-fit: cover;
+             object-position: 50% 50%;
+            border: gray 2px solid;
+            border-radius: 5px;
+            box-shadow: 3px 3px gray;
+        }
+
+        /* .container div img {
+            width: 30vw;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+            margin-left: 5rem;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            box-shadow: 7px 7px lightgrey;
+
+        } */
+
+        h1 {
+            margin: 0 15vw;
+            font-size: 3.5rem;
+            color: rgb(239, 118, 239);
+            text-shadow: 0.2rem 0.2rem rgb(93 53 121);
+            text-align: center;
+            padding: 1.5rem;
+            white-space: nowrap;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 2rem auto;
+            color: royalblue;
+            padding: 1.5rem;
+            width: 35vw;
+            text-shadow: beige;
+            text-align: center;
+            letter-spacing: 0.2rem;
+            border: royalblue 1px solid;
+            box-shadow: 8px 10px rgb(80 0 184);
+            border-radius: 15px;
+            white-space: nowrap;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            font-weight: 200;
+            margin: auto;
+            color: royalblue;
+            padding: 1.5rem;
+            width: 12vw;
+            height: 3vh;
+            text-align: center;
+            text-shadow: 0.05rem 0.05rem rgb(93 53 121);
+            align-items: center;
+            letter-spacing: 0.2rem;
+            border: 0.5px solid rgb(93 53 121);
+            box-shadow: 10px 10px rgb(93 53 121);
+            border-radius: 15px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <div class="start">
+                <a href="index.html"><img src="images/RainbowTree_light.png" class="logo" alt="rainbow tree logo"></a>
+                <div class="eg_name">RainbowTree<br>Studio<br>彩虹樹作品</div><!-- <div class="intro">彩 虹 樹</div> -->
+                <div class="slogan">常引彩虹灌溉·期以燦爛繽紛</div>
+                    <nav>
+                        <label for="switch"><img src="images/menu_icon.png" width="40px"></label>
+                        <!-- 漢堡按鈕圖示 -->
+                        <input type="checkbox" id="switch"><!-- 選單開關 -->
+                        <ul class="menu"><!--選單內容-->
+                            <li><a href="paintings.html">|◆繪畫<small>Paintings</small>◆|</a> </li>
+                            <li><a href="graphicdesign.html">|◆平面設計<small>Graphic Design</small>◆|</a></li>
+                            <li><a href="photograph.html">|◆攝影<small>photograph</small>◆|</a> </li>
+                            <li><a href="webdesign.html">|◆網頁設計<small>Web Design</small>◆|</a></li>
+                            <li><a href="aboutme.html">|◆關於彩虹樹<small>About RainbowTree</small>◆|</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- <div class="all"> -->
+    <br><br><br><br><br>
+    <h1>【  繪畫作品  】</h1>
+    <h2> ◆ 國畫 ◆ </h2><br>
+
+    <div class="all">
+        <div class="item"><img src="./images/painting/國畫01.jpg" alt="國畫雪景"><br>
+        </div>
+        <div class="item"><img src="./images/painting/poetry.png" alt="國畫雪景">
+        </div>
+        <div class="item"><img src="./images/painting/國畫03.jpg" alt="國畫">
+            <p>國畫/朱槿．扶桑．大紅花</p>
+        </div>
+        <div class="item"><img src="./images/painting/國畫04.jpg" alt="國畫">
+            <p>國畫/荷．游魚</p>
+        </div>
+        <div class="item"><img src="./images/painting/國畫05.jpg" alt="國畫">
+            <p>國畫/牡丹．富紫</p>
+        </div>
+        <div class="item"><img src="./images/painting/國畫02.jpg" alt="國畫">
+            <p>國畫/凌霄花垂藤．大捲尾</p>
+        </div>
+        <div class="item"><img src="./images/painting/peonynpot.jpg" alt="國畫">
+            <p>國畫/博古畫．鼎．牡丹．茶花</p>
+        </div>
+
+        <div class="item"><img src="./images/painting/國畫06.jpg" alt="國畫">
+            <p>國畫/雲海．雲彩</p>
+        </div>
+        <div class="item"><img src="./images/painting/國畫07.jpg" alt="國畫">
+            <p>國畫/綠梅．月夜</p>
+        </div>
+        <div class="item"><img src="./images/painting/國畫08.jpg" alt="國畫">
+            <p>國畫/木蘭．授帶</p>
+        </div>
+        <div class="item"><img src="./images/painting/國畫09.jpg" alt="國畫">
+            <p>國畫/菊．叢聚</p>
+        </div>
+        <div class="item"><img src="./images/painting/國畫10.jpg" alt="國畫">
+            <p>國畫/花．藤籃</p>
+        </div>
+        <div class="item"><img src="./images/painting/國畫11.jpg" alt="國畫">
+            <p>國畫/叢花．拓印技法</p>
+        </div>
+        <div class="item"><img src="./images/painting/國畫12.jpg" alt="國畫">
+            <p>國畫/德國．鳶尾</p>
+        </div>
+        <div class="item"><img src="./images/painting/國畫13.jpg" alt="國畫">
+            <p>國畫/清貢圖．博古圖．松竹梅事事如意</p>
+        </div>
+        <div class="item"><img src="./images/painting/國畫14.jpg" alt="國畫">
+            <p>國畫/麻雀．垂藤．夕顏</p>
+        </div>
+        <div class="item"><img src="./images/painting/國畫15.jpg" alt="國畫">
+            <p>國畫/牡丹．胭脂紅</p>
+        </div>
+        <div class="item"><img src="./images/painting/國畫16.jpg" alt="國畫">
+            <p>國畫/葡萄藤．一家</p>
+        </div>
+    </div>
+
+        <div>
+            <h2> ◆ 水彩 ◆ </h2>
+        </div>
+        <div class="all">
+
+        <div class="item"><img src="./images/painting/水彩01.jpg" alt="水彩">
+            <p>水彩畫/船．修整</p>
+        </div>
+        <div class="item"><img src="./images/painting/水彩03.jpg" alt="水彩">
+            <p>水彩畫/高地．聖家堂</p>
+        </div>
+        <div class="item"><img src="./images/painting/水彩04.jpg" alt="水彩">
+            <p>水彩畫/歐洲．皮鞋店</p>
+        </div>
+        <div class="item"><img src="./images/painting/ben.jpg" alt="水彩">
+            <p>水彩畫/英國倫敦．大鵬鐘</p>
+        </div>
+        <div class="item"><img src="./images/painting/水彩05.jpg" alt="水彩">
+            <p>水彩畫/荷蘭．風車</p>
+        </div>
+        <div class="item"><img src="./images/painting/水彩02.jpg" alt="水彩">
+            <p>水彩畫/歐洲．露天咖啡館</p>
+        </div>
+        <div class="item"><img src="./images/painting/Sensoji.jpg" alt="水彩">
+            <p>水彩畫/日本．淺草寺</p>
+        </div>
+        <div class="item"><img src="./images/painting/temple.jpg" alt="水彩">
+            <p>水彩畫/日本．犬山城</p>
+        </div>
+    </div>
+
+        <div>
+            <h2>◆ 電腦繪圖 ◆ </h2>
+        </div>
+        <div class="all">
+
+        <div class="item" style="width:600px;"><img src="./images/painting/狼狗.jpg" width="500px" alt="電腦繪圖">
+            <p>使用Painter．繪圖板/狼狗</p>
+        </div>
+        <div class="item"><img src="./images/painting/哈士奇_向量.gif" alt="電腦繪圖">
+            <p>向量繪圖/哈士奇寶寶</p>
+        </div>
+        <div class="item"><img src="./images/painting/黃金龍_me.jpg" alt="電腦繪圖">
+            <p>向量擬3D/金龍</p>
+        </div>
+
+    </div>
+        <div>
+            <h2>◆ 色鉛筆 食材 ◆ </h2>
+        </div>
+        <div class="all">
+
+        <div class="item"><img src="./images/painting/香菇.jpg" alt="食材-色鉛筆">
+            <p>蘿蔔糕食材-色鉛筆/香菇</p>
+        </div>
+        <div class="item"><img src="./images/painting/豬肉.jpg" alt="食材-色鉛筆">
+            <p>蘿蔔糕食材-色鉛筆/豬肉</p>
+        </div>
+        <div class="item"><img src="./images/painting/蘿蔔.jpg" alt="食材-色鉛筆">
+            <p>蘿蔔糕食材-色鉛筆/蘿蔔</p>
+        </div>
+        <div class="item"><img src="./images/painting/蝦仁.jpg" alt="食材-色鉛筆">
+            <p>蘿蔔糕食材-色鉛筆/蝦仁</p>
+        </div>
+
+
+        <div>
+            <h2>◆ 纏繞畫 ◆ 炭筆素描 ◆ </h2>
+        </div>
+        <div class="all">
+
+        <div class="item"><img src="./images/painting/纏繞畫.JPG" alt="纏繞畫">
+            <p>纏繞畫/虎鯨．山海</p>
+        </div>
+        <div class="item"><img src="./images/painting/炭筆素描.jpg" alt="炭筆素描">
+            <p>素描/靜物．質感表現</p>
+        </div>
+        <div class="item"><img src="./images/painting/雷門.jpg" alt="針筆素描">
+            <p>雷門．針筆</p>
+        </div>
+    </div>
+
+        <div>
+            <h2>◆ 花紋設計 ◆ </h2>
+        </div>
+        <div class="all">
+
+        <div class="item"><img src="./images/painting/roll.jpg" alt="纏繞畫">
+            <p>花紋設計/虎鯨．Roll</p>
+        </div>
+        <div class="item"><img src="./images/painting/rose.jpg" alt="炭筆素描">
+            <p>花紋設計/Rose</p>
+        </div>
+        <div class="item"><img src="./images/painting/coffee.jpg" alt="針筆素描">
+            <p>花紋設計．Coffee</p>
+        </div>
+        <div class="item"><img src="./images/painting/daisy.jpg" alt="針筆素描">
+            <p>花紋設計．Daisy</p>
+        </div>
+        <div class="item"><img src="./images/painting/drop.jpg" alt="針筆素描">
+            <p>花紋設計．Drop</p>
+        </div>
+        <div class="item"><img src="./images/painting/feather.jpg" alt="針筆素描">
+            <p>花紋設計．Feather</p>
+        </div>
+
+    </div>
+    
+</body>
+
+</html>

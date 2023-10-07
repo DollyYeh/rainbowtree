@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Graphicdesign Portfolio</title>
+    <link rel="stylesheet" href="./css/others.css">
+    <style>
+        body {
+            background: linear-gradient(to bottom, royalblue, lavender 10%, seashell 50%, royalblue);
+        }
+
+        .bg {
+            background-image: url(./images/webdesign_bg.png);
+            width: 100vw;
+            z-index: -1;
+        }
+
+        .all {
+            z-index: 2;
+            display: flex;
+            margin: 0px auto;
+            width: 95vw;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+
+        .img {
+            margin-left: 1rem;
+            float: left;
+            width: 450px;
+            border: 2px solid royalblue;
+            border-radius: 3px;
+            margin-left: 1rem;
+        }
+
+        .all .img2 {
+            float: left;
+            margin: 1rem;
+            width: 800px;
+            border: 2px solid royalblue;
+            border-radius: 3px;
+        }
+
+        h1 {
+            margin: 0 15vw;
+            font-size: 3.5rem;
+            color: rgb(239, 118, 239);
+            text-shadow: 0.2rem 0.2rem indigo;
+            text-align: center;
+            padding: 1.5rem;
+            white-space: nowrap;
+            z-index: 2;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin: 0.5rem auto;
+            color: royalblue;
+            padding: 1.5rem;
+            width: 65vw;
+            text-align: center;
+            letter-spacing: 0.2rem;
+            border: royalblue 2px solid;
+            box-shadow: 10px 10px rgb(80 0 184);
+            border-radius: 15px;
+            white-space: nowrap;
+        }
+
+        @media screen and (max-width:800px) {
+            .img {
+                width: 100vw;
+            }
+
+            h2 {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <div class="start">
+                <a href="index.html"><img src="images/RainbowTree_light.png" class="logo" alt="rainbow tree logo"></a>
+                <div class="eg_name">RainbowTree<br>Studio<br>彩 虹 樹 作 品</div><!-- <div class="intro">彩 虹 樹</div> -->
+                <div class="slogan">常引彩虹灌溉·期以燦爛繽紛</div>
+                <nav>
+                    <label for="switch"><img src="images/menu_icon.png" width="40px"></label>
+                    <!-- 漢堡按鈕圖示 -->
+                    <input type="checkbox" id="switch"><!-- 選單開關 -->
+                    <ul class="menu"><!--選單內容-->
+                        <li><a href="paintings.html">|◆繪畫<small>Paintings</small>◆|</a> </li>
+                        <li><a href="graphicdesign.html">|◆平面設計<small>Graphic Design</small>◆|</a></li>
+                        <li><a href="photograph.html">|◆攝影<small>photograph</small>◆|</a> </li>
+                        <li><a href="webdesign.html">|◆網頁設計<small>Web Design</small>◆|</a></li>
+                        <li><a href="aboutme.html">|◆關於彩虹樹<small>About RainbowTree</small>◆|</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="bg">
+        <br><br><br><br><br><br>
+        <h1>∞ 平面設計作品 ∞</h1>
+        <h2>DM/eDM/海報/評量卷/獎狀/廣告單/明信片/摸彩券/宣傳車看板/背心/文具:墊板、尺/宣傳布條/旗幟</h2>
+        <br><br><br>
+        <div class="all">
+            <div><img src="./images/graphic_design/05.png" class="img2"></div>
+            <div><img src="./images/graphic_design/06.png" class="img2"></div>
+            <div><img src="./images/graphic_design/07.png" class="img2"></div>
+            <div><img src="./images/graphic_design/08.png" class="img2"></div>
+            <div><img src="./images/graphic_design/09.png" class="img2"></div>
+            <div><img src="./images/graphic_design/10.png" class="img2"></div>
+            <div><img src="./images/graphic_design/11.png" class="img2"></div>
+            <div><img src="./images/graphic_design/12.png" class="img2"></div>
+            <div><img src="./images/graphic_design/13.png" class="img2"></div>
+            <div><img src="./images/graphic_design/14.png" class="img2"></div>
+            <div><img src="./images/graphic_design/Xmas-01.png" class="img"></div>
+            <div><img src="./images/graphic_design/15.png" class="img"></div>
+            <div><img src="./images/graphic_design/16.png" class="img"></div>
+        </div>
+    </div>
+</body>
+
+</html>
